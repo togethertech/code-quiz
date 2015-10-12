@@ -34,3 +34,5 @@ Ubuntu 14.04,The distribution of Linux we use at Together Tech
 Distribution,It’s like a flavor of Linux. Sort of like a flavor of Ice cream.Ubuntu Linux would be like Chocolate Ice Cream in this analogy there are many Linux ________ just like there are many flavors of chocolate but just like knowing you like Chocolate Ice Cream is usually all you need to know knowing we use Ubuntu 14.04 in the class.
 Podcast,Like a talk radio show usually about a specific topic in our case programming. It’s downloaded from the internet as an mp3 and then listened to. Listening to programming _______ is ESSENTIAL for learning all the terms used by professional developers, without the terminology your brain can’t take in 
 Argument,Things passed into a method that becomes local variables inside the method.
+Operand,A thing in programming that can be operated upon
+Operator,A thing in programming that does things to operands
