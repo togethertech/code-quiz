@@ -36,3 +36,4 @@ Podcast,Like a talk radio show usually about a specific topic in our case progra
 Argument,Things passed into a method that becomes local variables inside the method.
 Operand,A thing in programming that can be operated upon
 Operator,A thing in programming that does things to operands
+Idempotent,An action that does not give different results if it is performed more than one time.
