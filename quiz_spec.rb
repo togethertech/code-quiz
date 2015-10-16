@@ -7,6 +7,14 @@ describe Quiz do
   end
   
   it "has an array of questions" do
-    @quiz.questions.class.should == Array
+    @quiz.q_and_a.class.should == Array
+  end
+
+  it "makes answer available" do
+    @quiz.q_and_a[0].answer == "Linux"
+  end
+
+  it "makes questions available" do
+    @quiz.q_and_a[0].question == "Open source operating system"
   end
 end
