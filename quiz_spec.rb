@@ -19,6 +19,7 @@ describe Quiz do
   end
 
   it 'loads answers from file' do
-    expect(@quiz.q_and_a[1].answer).to eq("Ruby")
+    expect(@quiz.q_and_a[0].class).to eq(Quanswer)    
+    expect(@quiz.q_and_a[1].class).to eq(Quanswer)
   end
 end
