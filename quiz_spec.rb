@@ -15,6 +15,10 @@ describe Quiz do
   end
 
   it "makes questions available" do
-    expect(@quiz.q_and_a[0].question).to eq("An open source operating system")
+    expect(@quiz.q_and_a[0].question).to eq("Most popular open source operating system")
+  end
+
+  it 'loads answers from file' do
+    expect(@quiz.q_and_a[1].answer).to eq("Ruby")
   end
 end
