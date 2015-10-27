@@ -1,2 +1,12 @@
-controller,Where are instance variables defined to use in the view?
-router,What decides which action in which controller
+router,What decides which action in which controller should run
+controller,Where are instance variables assigned to use in the view?
+model,What thing in Rails interacts with the database?
+view,Where in Rails do you have Ruby code embedded into HTML
+view,What thing in Rails is responsible for generating the code that will be sent to the browser
+view,Where can you use instance variables that you assign in the Controller?
+model,Which thing in Rails saves you from having to learn the SQL programming language?
+table,A thing in the database that have many columns relating to one resource
+column,Each database table has many of these
+row,Each instance of a resource gets saved in a new _______ in the database
+columns,If we have Users in our Rails app. name, email and date_of_birth are examples of ________ in the users table.
+database,An organized way to store information on a computer, this thing often makes it possible that more than one person can access the information at the same time
