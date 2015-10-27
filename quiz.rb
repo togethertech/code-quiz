@@ -1,5 +1,6 @@
 class Quiz
   def initialize(file)
+    File.readlines(file).each do |line|
     @qua = Quanswer.new
   end
 
