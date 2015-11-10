@@ -14,7 +14,7 @@ describe Quiz do
   end
 
   it 'makes questions available' do
-    expect(@quiz.qua[0].question).to eq('Most popular open source operating system')
+    expect(@quiz.qua[0].question).to include('Most popular open source')
   end
 
   it 'loads answers from file' do

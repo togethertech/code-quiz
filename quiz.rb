@@ -1,3 +1,4 @@
+# asks the user questions & receives their answers
 class Quiz
   attr_reader :qua
   def initialize(file)
@@ -8,6 +9,7 @@ class Quiz
   end
 end
 
+# stores a question & correct answer
 class Quanswer
   attr_accessor :answer, :question
   def initialize(line)
