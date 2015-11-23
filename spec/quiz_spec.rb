@@ -27,4 +27,10 @@ describe Quiz do
      @quiz.qua.shift
      expect(@quiz.current_question).to include('High level programming lan')     
   end
+
+  it "has a current answer" do
+    expect(@quiz.current_answer).to eq("Linux")
+    @quiz.qua.shift
+    expect(@quiz.current_answer).to eq("Ruby")
+  end
 end
