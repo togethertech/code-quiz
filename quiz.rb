@@ -7,4 +7,12 @@ class Quiz
       @qua << Quanswer.new(line.chomp)
     end
   end
+
+  def current_question
+    @qua[0].question
+  end
+
+  def current_answer
+    @qua[0].answer
+  end
 end
