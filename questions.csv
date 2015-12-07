@@ -1,39 +1,39 @@
-Linux,Most popular open source operating system
-Ruby,High level programming language optimized for developer productivity
-Rails,Most popular web framework for Ruby
-HTML,Programming language that structures web pages
-CSS,Programming language that styles web pages
-Javascript,A general purpose programming language that all modern browsers can understand
-Text Editor,Where you write your code
-Open Source,Software for which the source code is public (not secret)
-Source Code,The code that programmers wrote to make an application before it is compiled
+Linux,Most popular open source operating system?
+Ruby,High level programming language optimized for developer productivity?
+Rails,Most popular web framework for Ruby?
+HTML,Programming language that structures web pages?
+CSS,Programming language that styles web pages?
+Javascript,A general purpose programming language that all modern browsers can understand?
+Text Editor,Where you write your code?
+Open Source,Software for which the source code is public (not secret)?
+Source Code,The code that programmers wrote to make an application before it is compiled?
 Web Framework,A _____ _____ gives you the basics you would need every time you make a website using this you don’t need to build the same things every time before you can start.
-Programmer,A word for developer that starts with a P
-Developer,A word for Coder that starts with a D
-Coder,A word for Programmer that starts with a C
+Programmer,A word for developer that starts with a P?
+Developer,A word for Coder that starts with a D?
+Coder,A word for Programmer that starts with a C?
 Code,What do we call the stuff that a programmer writes? Not the whole program or application after it is working just the stuff that is being written line by line.
-Terminal,The Linux app that opens your Command Line
+Terminal,The Linux app that opens your Command Line?
 Command Line,Where you give your computer commands. This is where you will run your code. It can be called the _____ _____ Interface
-Prompt,A line of text from your computer saying it’s ready for a command.
+Prompt,A line of text from your computer saying it’s ready for a command?
 Directory,In Windows they call it a Folder in Linux we call it a _______
-Error Message,This is the computer helping you it’s trying to tell you how you can fix your program.
-Variable,A piece of code that stores things in it
+Error Message,This is the computer helping you it’s trying to tell you how you can fix your program?
+Variable,A piece of code that stores things in it?
 Method,A bit of code you can run by calling the _____ name
-Class,A factory for creating objects
-String,A mix of letters numbers & characters that the computer does not try to understand
-Fixnum,The Ruby class for a whole number
-Interpolation,Putting the result of some code into a string
-Browser,The software program on your computer that let’s you view websites
-Server,A computer that you don’t plug a monitor keyboard & mouse into it just sits there & runs software to be used from other computers over a local network or the internet. Usually we will be talking about a Web server that hosts websites & servs them to any computer that asks to see the website.
-Network,What connects computers together
-Internet,The biggest network in the world which 3 billion people are connected to
-Flipped Classroom,Students learn from a course on the computer teachers are only here to help.
-Touch Typing,Type without looking at the keyboard. You could program without this but you will learn a lot slower
-Klavaro,The Typing Tutor we use at Together Tech
-Ubuntu 14.04,The distribution of Linux we use at Together Tech
+Class,A factory for creating objects?
+String,A mix of letters numbers & characters that the computer does not try to understand?
+Fixnum,The Ruby class for a whole number?
+Interpolation,Putting the result of some code into a string?
+Browser,The software program on your computer that let’s you view websites?
+Server,A computer that you don’t plug a monitor keyboard & mouse into it just sits there & runs software to be used from other computers over a local network or the internet. Usually we will be talking about a Web server that hosts websites & servs them to any computer that asks to see the website?
+Network,What connects computers together?
+Internet,The biggest network in the world which 3 billion people are connected to?
+Flipped Classroom,Students learn from a course on the computer teachers are only here to help?
+Touch Typing,Type without looking at the keyboard. You could program without this but you will learn a lot slower?
+Klavaro,The Typing Tutor we use at Together Tech?
+Ubuntu 14.04,The distribution of Linux we use at Together Tech?
 Distribution,It’s like a flavor of Linux. Sort of like a flavor of Ice cream.Ubuntu Linux would be like Chocolate Ice Cream in this analogy there are many Linux ________ just like there are many flavors of chocolate but just like knowing you like Chocolate Ice Cream is usually all you need to know knowing we use Ubuntu 14.04 in the class.
 Podcast,Like a talk radio show usually about a specific topic in our case programming. It’s downloaded from the internet as an mp3 and then listened to. Listening to programming _______ is ESSENTIAL for learning all the terms used by professional developers, without the terminology your brain can’t take in 
-Argument,Things passed into a method that becomes local variables inside the method.
-Operand,A thing in programming that can be operated upon
-Operator,A thing in programming that does things to operands
-Idempotent,An action that does not give different results if it is performed more than one time.
+Argument,Things passed into a method that becomes local variables inside the method?
+Operand,A thing in programming that can be operated upon?
+Operator,A thing in programming that does things to operands?
+Idempotent,An action that does not give different results if it is performed more than one time?

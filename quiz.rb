@@ -16,6 +16,15 @@ class Quiz
   def current_answer
     @qua[0].answer
   end
+
+  def greet
+    "Hello, welcome to Code Quiz"
+  end
+
+  def start
+    puts greet
+    puts current_question
+  end
 end
 
 if __FILE__ == $0
