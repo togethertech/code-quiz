@@ -33,4 +33,8 @@ describe Quiz do
     @quiz.qua.shift
     expect(@quiz.current_answer).to eq("Ruby")
   end
+
+  it "has a greeting" do
+    expect(@quiz.greet).to include("Hello, welcome to Code Quiz")
+  end
 end

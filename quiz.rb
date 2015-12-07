@@ -1,4 +1,5 @@
 # asks the user questions & receives their answers
+require_relative 'quanswer'
 class Quiz
   attr_reader :qua
   def initialize(file)
@@ -15,4 +16,9 @@ class Quiz
   def current_answer
     @qua[0].answer
   end
+end
+
+if __FILE__ == $0
+  quiz = Quiz.new('questions.csv')
+  quiz.start
 end
