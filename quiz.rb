@@ -1,22 +1,42 @@
-@q_and_a = []
+# asks the user questions & receives their answers
+require_relative 'quanswer'
+class Quiz
+  attr_reader :qua
+  def initialize(file)
+    @qua = []
+    File.readlines(file).each do |line|
+      @qua << Quanswer.new(line.chomp)
+    end
+  end
 
-def load_questions(from_file)
-  File.readlines(from_file).each do |line|
-    @q_and_a << line.split(',')
+  def current_question
+    @qua[0].question
+  end
+
+  def current_answer
+    @qua[0].answer
+  end
+
+  def greet
+    "Hello, welcome to Code Quiz"
+  end
+
+  def start
+    puts greet
+    until @qua.empty?
+      puts current_question
+      answer = gets.chomp.downcase
+      if answer == current_answer.downcase
+        puts "You are correct"
+        @qua.shift
+      else
+        puts "Not quite, try again"
+      end
+    end
   end
 end
 
-load_questions(ARGV.shift || 'questions.csv')
-
-until @q_and_a.length == 0
-  puts @q_and_a[0][1]
-  answer = gets.chomp.downcase
-  if answer == @q_and_a[0][0].downcase
-    puts "you got it right"
-    @q_and_a.shift
-  else
-    puts "that was wrong"
-    puts "The right answer was #{@q_and_a[0][0]}"
-    @q_and_a = @q_and_a.rotate(1)
-  end
+if __FILE__ == $0
+  quiz = Quiz.new('questions.csv')
+  quiz.start
 end
