@@ -23,7 +23,16 @@ class Quiz
 
   def start
     puts greet
-    puts current_question
+    until @qua.empty?
+      puts current_question
+      answer = gets.chomp.downcase
+      if answer == current_answer.downcase
+        puts "You are correct"
+        @qua.shift
+      else
+        puts "Not quite, try again"
+      end
+    end
   end
 end
 
