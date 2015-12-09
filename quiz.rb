@@ -31,6 +31,7 @@ class Quiz
         @qua.shift
       else
         puts "Not quite, try again"
+        @qua = @qua.rotate(1)
       end
     end
   end
