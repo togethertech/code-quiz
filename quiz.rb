@@ -1,4 +1,7 @@
 # asks the user questions & receives their answers
+
+require 'active_support/inflector'
+
 require_relative 'quanswer'
 class Quiz
   attr_reader :qua
@@ -23,18 +26,27 @@ class Quiz
 
   def start
     puts greet
+      c = 0
+      f = 0
     until @qua.empty?
       puts current_question
       answer = gets.chomp.downcase
       if answer == current_answer.downcase
-        puts "You are correct"
+        puts "You, are correct"
+        c +=1
+        puts "you passed #{c}" + " time".pluralize(c)
         @qua.shift
       else
         puts "Not quite, try again"
+        
+        @qua = @qua.rotate(1)
+        f +=1
+        puts "you failed #{f}" + " time".pluralize(f)
       end
     end
   end
 end
+
 
 if __FILE__ == $0
   quiz = Quiz.new('questions.csv')
