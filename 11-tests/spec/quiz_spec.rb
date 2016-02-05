@@ -23,9 +23,12 @@ describe Quiz do
   #   expect(@quiz.correct?('Java')).to eq(false)
   # end
 
-  it 'checks the answer' do
+  it 'checks if the answer is correct' do
     expect { @quiz.submit_answer('Ruby') }.to output("Correct!\n").to_stdout
-    expect { @quiz.submit_answer('Java') }.to output("No, the correct answer is Ruby\n").to_stdout
+   end
+
+  it 'checks if the answer is wrong' do
+     expect { @quiz.submit_answer('Java') }.to output("No, the correct answer is Ruby\nYou tried this question 1 times\n").to_stdout
   end
 
   it 'knows when the quiz is done' do
