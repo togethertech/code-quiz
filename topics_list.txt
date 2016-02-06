@@ -1,0 +1,29 @@
+Data Structures
+string
+array
+hash
+fixnum
+
+Basic Constructs
+variable
+if statement (flow control)
+method
+loop
+
+Refactoring
+Extracting Methods
+Extracting Classes
+
+Object Oriented Programming
+Class
+Dependency Injection
+
+Tests
+Rspec
+
+IO
+CSV
+Json
+YAML
+
+Encryption
